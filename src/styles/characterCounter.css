@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    height: 100vh;
+}
+.container{
+    align-self: center;
+}
+
+#input_field_text {
+    width: 100%;
+    max-width: 400px;
+    padding: 14px;
+    border: 1px solid gray;
+    font-size: 22px;
+}
+
+#input_field_text:focus{
+    border: 1px solid black;
+}
+ 
+#input_field_limit_error {
+    width: 100%;
+    max-width: 400px;
+    padding: 14px;
+    border: 1px solid red;
+    font-size: 22px;
+}
+
+#input_field_limit_error:focus{
+    border: 1px solid red;
+}
