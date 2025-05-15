@@ -1,0 +1,15 @@
+Recoil:
+
+State management package
+
+first lesson:
+
+
+
+- my first experience using recoil
+after genarating a new react-js application with 19.1.0 version, and install recoil package, the default installing package was version 0.7.7
+the integration with the package was giving this error with using the recoil hooks to get value or state
+(Cannot destructure property 'ReactCurrentDispatcher' of 'react.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED' as it is undefined.)
+
+after searching for thsi error and the cause of it I find out that the problem was with the default genarated react version as it is unstable version,
+couldn't go aline with the recoil package. 
