@@ -1,0 +1,26 @@
+.complete_task{
+    background-color: greenyellow;
+    padding: 6px;
+    border: 1px solid black;
+    width: auto;
+}
+
+.new_task{
+    background-color: bisque;
+    padding: 6px;
+    border: 1px solid green;
+    width: auto;
+}
+
+.screen_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#input_style{
+    background-color: transparent;
+    border: 0px solid transparent;
+}

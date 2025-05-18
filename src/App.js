@@ -1,11 +1,12 @@
 import React from 'react';
-import CharacterCounter from './components/CharacterCounter';
 import {RecoilRoot} from 'recoil'
+import TodoScreen from './screens/TodoScreen.tsx';
 
 function App() {
   return (
        <RecoilRoot>
-      <CharacterCounter/>
+      {/* <CharacterCounter/> */}
+      <TodoScreen/>
     </RecoilRoot>
 
   );
