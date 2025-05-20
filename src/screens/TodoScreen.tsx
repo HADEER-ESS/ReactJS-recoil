@@ -9,15 +9,15 @@ import TodoListStats from '../components/todo/TodoListStats.tsx'
 // import { TodoListState } from '../slicers/todo/state/todoListState.ts'
 
 const TodoScreen = () => {
-    const todoList = useRecoilValue(filterTodoListState)
+  const todoList = useRecoilValue(filterTodoListState)
   return (
     <div className='screen_container'>
-        <TodoListStats />
-        <TodoListFilters />
-        <TodoItemCreator/>
+      <TodoListStats />
+      <TodoListFilters />
+      <TodoItemCreator />
       {
-        todoList.map((item)=>
-            <TodoItemComp item={item}/>
+        todoList.map((item) =>
+          <TodoItemComp item={item} />
         )
       }
     </div>
